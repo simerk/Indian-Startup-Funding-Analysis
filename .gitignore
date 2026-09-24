@@ -1,0 +1,16 @@
+# Power BI temp files
+*.pbix.lock
+~$*.pbix
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Reproduced/test output from data_cleaning.py
+data/raw/*.reproduced.csv
+data/processed/*.reproduced.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
